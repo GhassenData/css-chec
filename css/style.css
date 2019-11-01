@@ -1,0 +1,124 @@
+﻿body
+{
+margin:0;
+padding:0;
+}
+ul
+{  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: em;
+    font-style: italic;
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: auto;
+    padding: 35px;
+    list-style-type: none;   
+}
+
+body
+{
+ background-image: 
+ linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #0a0a0a, #121212, #181818, #242425, #313132, #3e3e40, #4c4c4e);
+}
+
+
+h1,h3
+{
+    text-align:center;
+    font-size: 2.5em;
+    color:white;
+   }
+
+a{
+    color:white;
+    list-style-type: none;
+    align-items:center;
+    text-align:center;
+    text-decoration: none;
+    
+}
+
+.Viewmore
+{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    color:red;
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    height: 10px;
+}
+.Boutton1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image
+{
+width: 100%;
+height: 550px;
+
+}
+.image2
+{
+width: 100%;
+height: 300px;
+padding: 10px;
+margin: auto;
+display: flex;
+justify-content: center;
+
+}
+
+#imageinterieur
+{
+    padding:10px;
+    margin:10px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.zone-texte
+{
+    display: flex;
+    justify-content: center;
+}
+ .formulaire
+ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+ .video
+ {
+margin: auto;
+padding: 1px;
+padding: 15px;
+display:flex;
+justify-content: center;
+ }
+#titrebase 
+{
+padding: 10px;
+border-top: 3px white double;
+}
+#logo
+{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    top:30px;
+    left: 20px;
+   
+}
